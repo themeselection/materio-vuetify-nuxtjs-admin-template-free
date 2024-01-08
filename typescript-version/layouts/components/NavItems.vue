@@ -270,7 +270,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
     :item="{
       title: 'Documentation',
       icon: 'ri-article-line',
-      href: 'https://demos.themeselection.com/materio-vuetify-nuxtjs-admin-template/documentation/',
+      href: 'https://demos.themeselection.com/materio-vuetify-vuejs-admin-template/documentation/',
       target: '_blank',
     }"
   />
