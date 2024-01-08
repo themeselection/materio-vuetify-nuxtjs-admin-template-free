@@ -7,7 +7,7 @@ export default <RouterConfig> {
     {
       path: '/',
       name: 'index',
-      component: h('div'),
+      redirect: '/dashboard',
     },
   ],
 }

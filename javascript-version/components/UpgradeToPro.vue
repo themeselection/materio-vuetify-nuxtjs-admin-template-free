@@ -2,7 +2,7 @@
   <a
     color="error"
     class="buy-now-button"
-    href="https://themeselection.com/item/materio-vuetify-vuejs-admin-template/"
+    href="https://themeselection.com/item/materio-vuetify-nuxtjs-admin-template/"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -19,7 +19,7 @@
       transition="slide-y-reverse-transition"
     >
       <VCard>
-        <VImg src="https://cdn.jsdelivr.net/gh/themeselection/ts-assets/materio/materio-vuetify-vuejs-admin-template/banner/banner.png" />
+        <VImg src="https://cdn.jsdelivr.net/gh/themeselection/ts-assets/materio/materio-vuetify-nuxtjs-admin-template/banner/banner.png" />
         <VCardTitle>Materio - Vuetify Admin Template</VCardTitle>
         <VCardText>
           Materio Admin is the most developer friendly & highly customisable Admin Dashboard Template based on Vuetify.
@@ -28,7 +28,7 @@
         <VCardText>
           <VBtn
             class="me-4"
-            href="https://themeselection.com/item/materio-vuetify-vuejs-admin-template/?tab=details#details"
+            href="https://themeselection.com/item/materio-vuetify-nuxtjs-admin-template/?tab=details#details"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -36,7 +36,7 @@
           </VBtn>
           <VBtn
             variant="outlined"
-            href="https://themeselection.com/item/materio-vuetify-vuejs-admin-template/"
+            href="https://themeselection.com/item/materio-vuetify-nuxtjs-admin-template/"
             target="_blank"
             rel="noopener noreferrer"
           >

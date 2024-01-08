@@ -7,7 +7,7 @@ export default  {
     {
       path: '/',
       name: 'index',
-      component: h('div'),
+      redirect: '/dashboard',
     },
   ],
 }
