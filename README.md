@@ -27,11 +27,11 @@
    </a>
 </p>
 
-<kbd>[![Materio - Vuetify VueJS Free Admin Template Demo Screenshot](https://themeselection.com/item/materio-free-vuetify-nuxtjs-admin-template/)](https://themeselection.com/item/materio-free-vuetify-nuxtjs-admin-template/)</kbd>
+<kbd>[![Materio - Vuetify NuxtJS Free Admin Template Demo Screenshot](https://cdn.jsdelivr.net/gh/themeselection/ts-assets/materio/materio-vuetify-nuxtjs-admin-template-free/banner/banner.png)](https://themeselection.com/item/materio-free-vuetify-nuxtjs-admin-template/)</kbd>
 
 ## Introduction 🚀
 
-If you're a developer looking for an admin dashboard that is developer-friendly, rich with features, and highly customizable look no further than Materio. We've followed the highest industry standards to bring you the very best [Nuxt Admin Template](https://themeselection.com/item/category/nuxt-admin-templates/) that is not only fast and easy to use but highly scalable. Offering ultimate convenience and flexibility, you'll be able to build whatever application you want with very little hassle.
+If you're a developer looking for an admin dashboard that is developer-friendly, rich with features, and highly customizable look no further than Materio. We've followed the highest industry standards to bring you the very best [Nuxt Admin Template](https://themeselection.com/item/materio-free-vuetify-nuxtjs-admin-template/) that is not only fast and easy to use but highly scalable. Offering ultimate convenience and flexibility, you'll be able to build whatever application you want with very little hassle.
 
 - ⚡️ [Nuxt 3](https://github.com/nuxt/nuxt), [Vue 3](https://github.com/vuejs/core) & [Vuetify 3](https://vuetifyjs.com/en/) - Uses the latest Vuetify 3
 - 🗂 [File based routing](https://nuxt.com/docs/getting-started/routing)
@@ -72,7 +72,7 @@ Please [visit](https://demos.themeselection.com/materio-vuetify-vuejs-admin-temp
 
 | Materio Free Version        | Materio Premium Version       |
 | ----------------------------------------------- | :------------------------------------------------ |
-| [Demo](https://demos.themeselection.com/materio-vuetify-nuxtjs-admin-template-free/demo/) | [Demo](https://themeselection.com/item/materio-free-vuetify-nuxtjs-admin-template/)                |
+| [Demo](https://demos.themeselection.com/materio-vuetify-nuxtjs-admin-template-free/demo/) | [Demo](https://themeselection.com/item/materio-vuetify-nuxtjs-admin-template/)                |
 | [Download](https://themeselection.com/item/materio-free-vuetify-nuxtjs-admin-template/)               | [Purchase](https://themeselection.com/item/materio-vuetify-nuxtjs-admin-template/)                 |
 | Single vertical menu                            | Vertical (+ vertical collapsed) & Horizontal menu |
 
