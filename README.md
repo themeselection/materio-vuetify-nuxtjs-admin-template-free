@@ -75,6 +75,24 @@ Please [visit](https://demos.themeselection.com/materio-vuetify-vuejs-admin-temp
 | [Demo](https://demos.themeselection.com/materio-vuetify-nuxtjs-admin-template-free/demo/) | [Demo](https://themeselection.com/item/materio-vuetify-nuxtjs-admin-template/)                |
 | [Download](https://themeselection.com/item/materio-free-vuetify-nuxtjs-admin-template/)               | [Purchase](https://themeselection.com/item/materio-vuetify-nuxtjs-admin-template/)                 |
 | Single vertical menu                            | Vertical (+ vertical collapsed) & Horizontal menu |
+| Simple Light/Dark theme                                                                          | 3 Skin variants w/ light/dark theme support: Default, Bordered & Semi-dark                     |
+| 1 Simple Dashboard                                                                               | 3 Niche Dashboards                                                                             |
+| -                                                                                                | 5 API ready applications                                                                       |
+| Simple From Elements                                                                             | Advance form elements, validation & form wizard                                                 |
+| Basic Cards                                                                                      | Basic Cards + Advanced Cards + Statistics Cards                                                |
+| -                                                                                                | API ready JWT Authentication flow                                                              |
+| -                                                                                                | Access Control (even on CRUD operations)                                                       |
+| -                                                                                                | Quick Search - Quickly navigate between pages (w/ hotkey support)                              |
+| Basic Pages                                                                                      | Authentication Pages in 2 variants + Ready-to-use pages like Pricing, FAQ, Knowledge base, etc |
+| -                                                                                                | 3D Characters + Illustrations                                                                  |
+| Basic tables                                                                                     | Advanced tables                                                                                |
+| Manual customization                                                                             | Quick customization using theme config file                                                    |
+| -                                                                                                | Advanced Charts                                                                                |
+| 1 Chart Library                                                                                  | 2 Chart Libraries                                                                              |
+| -                                                                                                | Multiple Navbar & Menu Options                                                                 |
+| -                                                                                                | Starter-kit                                                                                    |
+| -                                                                                                | Internationalization support in components                                                     |
+| Regular Support                                                                                  | Priority Support                                                                               |
 
 ## Documentation 📜
 
