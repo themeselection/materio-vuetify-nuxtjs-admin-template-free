@@ -173,13 +173,6 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
       to: '/register',
     }"
   />
-  <VerticalNavLink
-    :item="{
-      title: 'Error',
-      icon: 'ri-information-line',
-      to: '/no-existence',
-    }"
-  />
 
   <!-- 👉 User Interface -->
   <VerticalNavSectionTitle
