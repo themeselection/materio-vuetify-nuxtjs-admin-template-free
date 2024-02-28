@@ -9,8 +9,6 @@ on:
 jobs:
   deployment:
     runs-on: ubuntu-latest
-    env:
-      NUXT_APP_BASE_URL: ${{ secrets.NUXT_APP_BASE_URL }}
     steps:
       - name: ⚙️ Setup pnpm
         uses: pnpm/action-setup@v3
@@ -43,6 +41,8 @@ jobs:
       - name: 📦 Generate demo
         working-directory: ${{ env.BRAND_NAME }}/nuxt-free/typescript-version
         run: pnpm i && pnpm generate
+        env:
+          NUXT_APP_BASE_URL: /${{ env.BRAND_NAME }}-vuetify-nuxtjs-admin-template-free/demo/
 
       - name: 🗄️ Ensure Dir on server
         uses: appleboy/ssh-action@v1.0.3
