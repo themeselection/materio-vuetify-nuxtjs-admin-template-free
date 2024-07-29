@@ -45,7 +45,6 @@ export default defineNuxtConfig({
 
   imports: {
     dirs: ['./@core/utils', './@core/composable/', './plugins/*/composables/*'],
-    presets: [],
   },
 
   hooks: {},
@@ -114,7 +113,6 @@ export default defineNuxtConfig({
           configFile: 'assets/styles/variables/_vuetify.scss',
         },
       }),
-      null,
     ],
   },
 

@@ -98,7 +98,7 @@ const handleError = () => clearError({ redirect: '/' })
 </template>
 
 <style lang="scss">
-@use "@core/scss/pages/misc.scss";
+@use "@core/scss/template/pages/misc.scss";
 
 .misc-footer-tree {
   inline-size: 15.625rem;

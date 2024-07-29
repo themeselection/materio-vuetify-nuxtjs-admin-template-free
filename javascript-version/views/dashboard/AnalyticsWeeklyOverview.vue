@@ -1,6 +1,6 @@
 <script setup>
-import { hexToRgb } from '@layouts/utils'
 import { useTheme } from 'vuetify'
+import { hexToRgb } from '@layouts/utils'
 
 const vuetifyTheme = useTheme()
 
@@ -98,6 +98,21 @@ const series = [{
     65,
   ],
 }]
+
+const moreList = [
+  {
+    title: 'Share',
+    value: 'Share',
+  },
+  {
+    title: 'Refresh',
+    value: 'Refresh',
+  },
+  {
+    title: 'Update',
+    value: 'Update',
+  },
+]
 </script>
 
 <template>
@@ -107,7 +122,7 @@ const series = [{
 
       <template #append>
         <div class="me-n3">
-          <MoreBtn />
+          <MoreBtn :menu-list="moreList" />
         </div>
       </template>
     </VCardItem>

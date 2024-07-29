@@ -37,21 +37,25 @@ definePageMeta({ layout: 'blank' })
       max-width="448"
     >
       <VCardItem class="justify-center">
-        <template #prepend>
-          <div class="d-flex">
-            <div v-html="logo" />
-          </div>
-        </template>
-
-        <VCardTitle class="font-weight-semibold text-2xl text-uppercase">
-          Materio
-        </VCardTitle>
+        <NuxtLink
+          to="/"
+          class="d-flex align-center gap-3"
+        >
+          <!-- eslint-disable vue/no-v-html -->
+          <div
+            class="d-flex"
+            v-html="logo"
+          />
+          <h2 class="font-weight-medium text-2xl text-uppercase">
+            Materio
+          </h2>
+        </NuxtLink>
       </VCardItem>
 
       <VCardText class="pt-2">
-        <h5 class="text-h5 font-weight-semibold mb-1">
+        <h4 class="text-h4 mb-1">
           Adventure starts here 🚀
-        </h5>
+        </h4>
         <p class="mb-0">
           Make your app management easy and fun!
         </p>
@@ -88,7 +92,7 @@ definePageMeta({ layout: 'blank' })
                 :append-inner-icon="isPasswordVisible ? 'ri-eye-off-line' : 'ri-eye-line'"
                 @click:append-inner="isPasswordVisible = !isPasswordVisible"
               />
-              <div class="d-flex align-center mt-1 mb-4">
+              <div class="d-flex align-center my-6">
                 <VCheckbox
                   id="privacy-policy"
                   v-model="form.privacyPolicies"
@@ -171,5 +175,5 @@ definePageMeta({ layout: 'blank' })
 </template>
 
 <style lang="scss">
-@use "@core/scss/pages/page-auth.scss";
+@use "@core/scss/template/pages/page-auth";
 </style>
