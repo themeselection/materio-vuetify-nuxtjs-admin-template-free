@@ -120,6 +120,7 @@ const checkbox = ref(false)
             md="9"
           >
             <VCheckbox
+              :id="useId()"
               v-model="checkbox"
               label="Remember me"
             />

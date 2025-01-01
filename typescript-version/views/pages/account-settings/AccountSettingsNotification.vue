@@ -64,13 +64,22 @@ const selectedNotification = ref('Only when I\'m online')
             {{ device.type }}
           </td>
           <td>
-            <VCheckbox v-model="device.email" />
+            <VCheckbox
+              :id="useId()"
+              v-model="device.email"
+            />
           </td>
           <td>
-            <VCheckbox v-model="device.browser" />
+            <VCheckbox
+              :id="useId()"
+              v-model="device.browser"
+            />
           </td>
           <td>
-            <VCheckbox v-model="device.app" />
+            <VCheckbox
+              :id="useId()"
+              v-model="device.app"
+            />
           </td>
         </tr>
       </tbody>
@@ -89,6 +98,7 @@ const selectedNotification = ref('Only when I\'m online')
             sm="6"
           >
             <VSelect
+              :id="useId()"
               v-model="selectedNotification"
               mandatory
               :items="['Only when I\'m online', 'Anytime']"

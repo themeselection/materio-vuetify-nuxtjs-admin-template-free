@@ -63,6 +63,7 @@ definePageMeta({ layout: 'blank' })
             <!-- email -->
             <VCol cols="12">
               <VTextField
+                :id="useId()"
                 v-model="form.email"
                 label="Email"
                 type="email"
@@ -72,10 +73,12 @@ definePageMeta({ layout: 'blank' })
             <!-- password -->
             <VCol cols="12">
               <VTextField
+                :id="useId()"
                 v-model="form.password"
                 label="Password"
                 placeholder="············"
                 :type="isPasswordVisible ? 'text' : 'password'"
+                autocomplete="password"
                 :append-inner-icon="isPasswordVisible ? 'ri-eye-off-line' : 'ri-eye-line'"
                 @click:append-inner="isPasswordVisible = !isPasswordVisible"
               />
@@ -83,6 +86,7 @@ definePageMeta({ layout: 'blank' })
               <!-- remember me checkbox -->
               <div class="d-flex align-center justify-space-between flex-wrap my-6">
                 <VCheckbox
+                  :id="useId()"
                   v-model="form.remember"
                   label="Remember me"
                 />

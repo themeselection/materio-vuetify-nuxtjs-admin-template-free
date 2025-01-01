@@ -11,6 +11,7 @@ const checkbox = ref(false)
     <VRow>
       <VCol cols="12">
         <VTextField
+          :id="useId()"
           v-model="firstName"
           label="First Name"
           placeholder="John"
@@ -19,6 +20,7 @@ const checkbox = ref(false)
 
       <VCol cols="12">
         <VTextField
+          :id="useId()"
           v-model="email"
           label="Email"
           type="email"
@@ -28,6 +30,7 @@ const checkbox = ref(false)
 
       <VCol cols="12">
         <VTextField
+          :id="useId()"
           v-model="mobile"
           label="Mobile"
           placeholder="+1 123 456 7890"
@@ -37,6 +40,7 @@ const checkbox = ref(false)
 
       <VCol cols="12">
         <VTextField
+          :id="useId()"
           v-model="password"
           label="Password"
           autocomplete="on"
@@ -47,6 +51,7 @@ const checkbox = ref(false)
 
       <VCol cols="12">
         <VCheckbox
+          :id="useId()"
           v-model="checkbox"
           label="Remember me"
         />

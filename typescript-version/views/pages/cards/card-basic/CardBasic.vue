@@ -194,12 +194,14 @@ const isCardDetailsVisible = ref(false)
             </VCardItem>
 
             <VCardText class="d-flex align-center flex-wrap text-body-1">
-              <VRating
-                :model-value="5"
-                readonly
-                class="me-3"
-                density="compact"
-              />
+              <ClientOnly>
+                <VRating
+                  :model-value="5"
+                  readonly
+                  class="me-3"
+                  density="compact"
+                />
+              </ClientOnly>
               <span>5 Star | 98 reviews</span>
             </VCardText>
 
@@ -388,12 +390,14 @@ const isCardDetailsVisible = ref(false)
     >
       <VCard title="The Best Answers">
         <VCardText class="d-flex align-center flex-wrap">
-          <VRating
-            :model-value="5"
-            readonly
-            density="compact"
-            class="me-3"
-          />
+          <ClientOnly>
+            <VRating
+              :model-value="5"
+              readonly
+              density="compact"
+              class="me-3"
+            />
+          </ClientOnly>
           <span class="text-subtitle-2">5 Star | 98 reviews</span>
         </VCardText>
 

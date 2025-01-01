@@ -17,6 +17,7 @@ const checkbox = ref(false)
         md="6"
       >
         <VTextField
+          :id="useId()"
           v-model="firstName"
           label="First Name"
           placeholder="John"
@@ -29,6 +30,7 @@ const checkbox = ref(false)
         md="6"
       >
         <VTextField
+          :id="useId()"
           v-model="lastName"
           label="Last Name"
           placeholder="Doe"
@@ -41,6 +43,7 @@ const checkbox = ref(false)
         md="6"
       >
         <VTextField
+          :id="useId()"
           v-model="email"
           label="Email"
           placeholder="johndoe@email.com"
@@ -53,6 +56,7 @@ const checkbox = ref(false)
         md="6"
       >
         <VTextField
+          :id="useId()"
           v-model="city"
           label="City"
           placeholder="New York"
@@ -65,6 +69,7 @@ const checkbox = ref(false)
         md="6"
       >
         <VTextField
+          :id="useId()"
           v-model="country"
           label="Country"
           placeholder="United States"
@@ -77,6 +82,7 @@ const checkbox = ref(false)
         md="6"
       >
         <VTextField
+          :id="useId()"
           v-model="company"
           label="Company"
           placeholder="Pixinvent"
@@ -86,6 +92,7 @@ const checkbox = ref(false)
       <!-- 👉 Remember me -->
       <VCol cols="12">
         <VCheckbox
+          :id="useId()"
           v-model="checkbox"
           label="Remember me"
         />

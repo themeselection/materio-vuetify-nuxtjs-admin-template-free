@@ -171,6 +171,7 @@ const currencies = [
                 cols="12"
               >
                 <VTextField
+                  :id="useId()"
                   v-model="accountDataLocal.firstName"
                   placeholder="John"
                   label="First Name"
@@ -183,6 +184,7 @@ const currencies = [
                 cols="12"
               >
                 <VTextField
+                  :id="useId()"
                   v-model="accountDataLocal.lastName"
                   placeholder="Doe"
                   label="Last Name"
@@ -195,6 +197,7 @@ const currencies = [
                 md="6"
               >
                 <VTextField
+                  :id="useId()"
                   v-model="accountDataLocal.email"
                   label="E-mail"
                   placeholder="johndoe@gmail.com"
@@ -208,6 +211,7 @@ const currencies = [
                 md="6"
               >
                 <VTextField
+                  :id="useId()"
                   v-model="accountDataLocal.org"
                   label="Organization"
                   placeholder="ThemeSelection"
@@ -220,6 +224,7 @@ const currencies = [
                 md="6"
               >
                 <VTextField
+                  :id="useId()"
                   v-model="accountDataLocal.phone"
                   label="Phone Number"
                   placeholder="+1 (917) 543-9876"
@@ -232,6 +237,7 @@ const currencies = [
                 md="6"
               >
                 <VTextField
+                  :id="useId()"
                   v-model="accountDataLocal.address"
                   label="Address"
                   placeholder="123 Main St, New York, NY 10001"
@@ -244,6 +250,7 @@ const currencies = [
                 md="6"
               >
                 <VTextField
+                  :id="useId()"
                   v-model="accountDataLocal.state"
                   label="State"
                   placeholder="New York"
@@ -256,6 +263,7 @@ const currencies = [
                 md="6"
               >
                 <VTextField
+                  :id="useId()"
                   v-model="accountDataLocal.zip"
                   label="Zip Code"
                   placeholder="10001"
@@ -268,6 +276,7 @@ const currencies = [
                 md="6"
               >
                 <VSelect
+                  :id="useId()"
                   v-model="accountDataLocal.country"
                   label="Country"
                   :items="['USA', 'Canada', 'UK', 'India', 'Australia']"
@@ -281,6 +290,7 @@ const currencies = [
                 md="6"
               >
                 <VSelect
+                  :id="useId()"
                   v-model="accountDataLocal.language"
                   label="Language"
                   placeholder="Select Language"
@@ -294,6 +304,7 @@ const currencies = [
                 md="6"
               >
                 <VSelect
+                  :id="useId()"
                   v-model="accountDataLocal.timezone"
                   label="Timezone"
                   placeholder="Select Timezone"
@@ -308,6 +319,7 @@ const currencies = [
                 md="6"
               >
                 <VSelect
+                  :id="useId()"
                   v-model="accountDataLocal.currency"
                   label="Currency"
                   placeholder="Select Currency"
@@ -344,6 +356,7 @@ const currencies = [
         <VCardText>
           <div>
             <VCheckbox
+              :id="useId()"
               v-model="isAccountDeactivated"
               label="I confirm my account deactivation"
             />
